@@ -10,10 +10,26 @@
 
 ---
 
-## Project Structure
+### About the Model
 
-## 📁 Project Structure
+- **Model**: Random Forest Classifier  
+- **Trained on**: PIMA Indians Diabetes dataset  
+- **Accuracy**: ~82%  
+- **Features used**: Glucose, Insulin, BMI, Age  
+- **Serialization**: `pickle` → `model.pkl`
 
+---
+
+#### How to Run Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/harrishsrinivasan/DiabeCheckr---A-Diabetes-Prediction-App-using-Machine-Learning.git
+cd DiabeCheckr
+
+
+###### Project Structure
 ```txt
 ├── DiabeCheckr/            # Flask web app (UI, routes, ML model)
 │   ├── static/
@@ -30,20 +46,3 @@
 
 ---
 
-## About the Model
-
-- **Model**: Random Forest Classifier  
-- **Trained on**: PIMA Indians Diabetes dataset  
-- **Accuracy**: ~82%  
-- **Features used**: Glucose, Insulin, BMI, Age  
-- **Serialization**: `pickle` → `model.pkl`
-
----
-
-## How to Run Locally
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/harrishsrinivasan/DiabeCheckr---A-Diabetes-Prediction-App-using-Machine-Learning.git
-cd DiabeCheckr
