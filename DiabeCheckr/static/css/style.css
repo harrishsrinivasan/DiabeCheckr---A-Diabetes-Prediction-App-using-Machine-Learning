@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-image:
+    linear-gradient(rgba(29, 38, 113, 0.7), rgba(19, 7, 92, 0.7)),
+    url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.predictor-container {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 40px;
+  width: 100%;
+  /* --- MODIFIED: Increased width to make the box more rectangular --- */
+  max-width: 900px;
+}
+
+h1 {
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h2.subtitle {
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+h3.description {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 25px;
+  color: #e0e0e0;
+}
+
+input {
+  width: 80%;
+  max-width: 400px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+input:focus {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(43, 85, 222, 0.4);
+}
+
+.prediction-text {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 300;
+  min-height: 30px;
+}
