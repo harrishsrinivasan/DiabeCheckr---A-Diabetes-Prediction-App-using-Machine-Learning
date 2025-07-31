@@ -1,6 +1,3 @@
-# Expanded the content under "About diabetes project.ipynb" to add more details to each step
-
-detailed_readme_content = """
 # DiabeCheckr – A Simple Diabetes Predictor 
 
 **DiabeCheckr** is a beginner-friendly web application built using **Flask** that predicts whether a person is diabetic or not based on medical input. The prediction is powered by a **Random Forest Classifier** trained on the PIMA Indian Diabetes dataset.
@@ -93,7 +90,7 @@ You can open this notebook in Jupyter to see the full code, visualizations, and 
 ```bash
 git clone https://github.com/harrishsrinivasan/DiabeCheckr---A-Diabetes-Prediction-App-using-Machine-Learning.git
 cd DiabeCheckr
-
+```
 
 ###### Project Structure
 ```txt
