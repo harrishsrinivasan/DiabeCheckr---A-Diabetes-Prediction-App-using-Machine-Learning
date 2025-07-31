@@ -12,15 +12,21 @@
 
 ## Project Structure
 
-├── DiabeCheckr/ # Flask web app (UI, routes, ML model)
-│ ├── static/
-│ ├── templates/
-│ ├── app.py
-│ ├── model.pkl
-│ └── style.css / others
-├── diabetes project.ipynb # Model building & training
-├── diabetes.csv # Dataset used
-├── README.md # You're reading it!
+## 📁 Project Structure
+
+```txt
+├── DiabeCheckr/            # Flask web app (UI, routes, ML model)
+│   ├── static/
+|       |── style.css
+│   ├── templates/
+|       |── index.html
+│   ├── app.py
+│   ├── model.pkl
+│ 
+├── diabetes project.ipynb  # Model building & training
+├── diabetes.csv            # Dataset used
+├── preview.png             # Web app preview screenshot
+└── README.md               # You're reading it!
 
 ---
 
