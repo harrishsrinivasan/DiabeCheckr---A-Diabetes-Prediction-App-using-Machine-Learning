@@ -27,22 +27,23 @@
 ```bash
 git clone https://github.com/harrishsrinivasan/DiabeCheckr---A-Diabetes-Prediction-App-using-Machine-Learning.git
 cd DiabeCheckr
-
+```
 
 ###### Project Structure
 ```txt
 ├── DiabeCheckr/            # Flask web app (UI, routes, ML model)
 │   ├── static/
-|       |── style.css
+│   │   └── style.css
 │   ├── templates/
-|       |── index.html
+│   │   └── index.html
 │   ├── app.py
 │   ├── model.pkl
-│ 
+│
 ├── diabetes project.ipynb  # Model building & training
 ├── diabetes.csv            # Dataset used
 ├── preview.png             # Web app preview screenshot
 └── README.md               # You're reading it!
+```
 
 ---
 
