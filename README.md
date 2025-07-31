@@ -6,7 +6,7 @@
 
 ## Web App Preview
 
-![App Screenshot](./3dc36fe7-7ca3-45df-a5a4-5f54f10dc1ee.png)
+![App Screenshot](preview.png)
 
 ---
 
@@ -39,5 +39,5 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/DiabeCheckr.git
+git clone https://github.com/harrishsrinivasan/DiabeCheckr---A-Diabetes-Prediction-App-using-Machine-Learning.git
 cd DiabeCheckr
